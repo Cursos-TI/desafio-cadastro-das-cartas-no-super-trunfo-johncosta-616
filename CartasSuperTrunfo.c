@@ -69,10 +69,12 @@ int main(){
      
  
      //impressão na tela dos dados da carta 1
-    printf("\n *Carta 1: \n -Estado é: %s \n -O Código é: %s%s\n -O nome da cidade é: %s \n -População: %d\n -Área:%f \n -Pib: %f \n -Números de pontos turísticos: %d \n",letra_estado, letra_estado, codigo_carta, nome_cidade, populacao_cidade, area_cidade, pib_cidade, pontos_turisticos);
-    printf(" -A densidade populacional é de: %.2f \n -E o pib percapto é de:  %.2f \n", densidade_populacional, pib_cidade);
+
+     printf("\n *Carta 1: \n -Estado é: %s \n -O Código é: %s%s\n -O nome da cidade é: %s \n -População: %d\n -Área:%f \n -Pib: %f \n -Números de pontos turísticos: %d \n",letra_estado, letra_estado, codigo_carta, nome_cidade, populacao_cidade, area_cidade, pib_cidade, pontos_turisticos);
+     printf(" -A densidade populacional é de: %.2f \n -E o pib percapto é de:  %.2f \n", densidade_populacional, pib_cidade);
 
     //impressão na tela dos dados da carta 2
+    
      printf("\n*Carta 2: \n -Estado é: %s \n -O Código é: %s%s\n -O nome da cidade é: %s \n -População: %i\n -Área:%f \n -Pib: %f \n -Números de pontos turísticos: %d \n ",letra_estado2, letra_estado2, codigo_carta2, nome_cidade2, populacao_cidade2, area_cidade2, pib_cidade2, pontos_turisticos2);
      printf("-A densidade populacional é de:  %.2f \n -O pib per capto é de:   %.2f ", densidade_popu_carta2, pib_per_capta_carta2);
   
