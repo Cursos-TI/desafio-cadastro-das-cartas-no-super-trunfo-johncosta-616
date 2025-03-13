@@ -2,6 +2,8 @@
 
 int main(){
 
+    //JOGO SUPER TRUNFO:
+    
     // variáveis cartas 1 e 2 do supertrunfo:
   
 
