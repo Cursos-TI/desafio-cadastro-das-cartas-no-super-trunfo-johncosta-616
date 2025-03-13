@@ -2,7 +2,7 @@
 
 int main(){
 
-    // variáveis cartas 1 e 2  do supertrunfo:
+    // variáveis cartas 1 e 2 do supertrunfo:
   
 
     char letra_estado[2], letra_estado2[2];
@@ -17,7 +17,7 @@ int main(){
     // Carta 1:
     //momento entrada de dados
 
-    printf("*Carta 1: \nEscolha uma letra entre A-H: \n");
+    printf("*Carta 1: \n Escolha uma letra entre A-H: \n");
     scanf("%s", &letra_estado);
 
     printf("Escolha um número entre '01-04': \n");
@@ -49,7 +49,7 @@ int main(){
     // Carta 2:
     //momento entrada de dados
      
-    printf("\n*Carta 2: \nEscolha uma letra entre A-H: \n");
+    printf("\n*Carta 2: \n Escolha uma letra entre A-H: \n");
     scanf("%s", &letra_estado2);
  
      printf("Escolha um número entre '01-04': \n");
@@ -83,13 +83,12 @@ int main(){
 
 
      //impressão na tela dos dados da carta 1
-    printf("\n *Carta 1: \n -Estado é: %s \n -O Código é: %s%s\n -O nome da cidade é: %s \n -População: %d\n -Área:%f \n -Pib: %f \n -Números de pontos turísticos: %d \n",letra_estado, letra_estado, codigo_carta, nome_cidade, populacao_cidade, area_cidade, pib_cidade, pontos_turisticos);
-    printf(" -A densidade populacional é de: %.2f \n -E o pib percapto é de:  %.2f \n", densidade_populacional, pib_per_capta);
-    printf(" -O super poder da carta 1 é de: %f \n\n", superPoder_carta1);
+     printf("\n *Carta 1: \n -Estado é: %s \n -O Código é: %s%s\n -O nome da cidade é: %s \n -População: %d\n -Área:%f \n -Pib: %f \n -Números de pontos turísticos: %d \n",letra_estado, letra_estado, codigo_carta, nome_cidade, populacao_cidade, area_cidade, pib_cidade, pontos_turisticos);
+     printf(" -A densidade populacional é de: %.2f \n -E o pib percapto é de:  %.2f \n", densidade_populacional, pib_cidade);
 
     //impressão na tela dos dados da carta 2
      printf("\n*Carta 2: \n -Estado é: %s \n -O Código é: %s%s\n -O nome da cidade é: %s \n -População: %i\n -Área:%f \n -Pib: %f \n -Números de pontos turísticos: %d \n ",letra_estado2, letra_estado2, codigo_carta2, nome_cidade2, populacao_cidade2, area_cidade2, pib_cidade2, pontos_turisticos2);
-     printf("-A densidade populacional é de: %.2f \n -O pib per capto é de: %.2f \n ", densidade_popu_carta2, pib_per_capta_carta2);
+     printf("-A densidade populacional é de:  %.2f \n -O pib per capto é de:   %.2f ", densidade_popu_carta2, pib_per_capta_carta2);
      printf("-O super poder da carta 2 é de: %f \n\n", superPoder_carta2);
 
 
